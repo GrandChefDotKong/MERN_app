@@ -9,7 +9,7 @@ const Posts = ({ setCurrentId }) => {
     const posts = useSelector((state) => state.posts);
 
     return (
-        !posts.length ? <CircularProgress /> : (
+        !posts?.length ? <CircularProgress /> : (
             <Grid container className={classes.conatiner} alignItems="stretch" spacing={3}>
                 {posts.map((post) => (
                     <Grid item key={post._id} xs={12} sm={12} md={6} lg={3}>
