@@ -8,13 +8,13 @@ import { getPosts, getPostsBySearch } from '../actions/posts';
 const Paginate = ({ page }) => {
     const classes = useStyles();
     const dispatch = useDispatch();
-    const { numberOfPages } = useSelector((state) => state.posts)
+    const { numberOfPages } = useSelector((state) => state.posts);
 
     useEffect(() => {
         if(page) {
             dispatch(getPosts(page));
         }
-    }, [page]);
+    }, [page, dispatch]);
 
     return (
         <Pagination 
