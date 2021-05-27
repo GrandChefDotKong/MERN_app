@@ -8,17 +8,20 @@ import decode from 'jwt-decode';
 import useStyles from './styles';
 import memoriesLogo from '../../assets/memories-Logo.png';
 import memoriesText from '../../assets/memories-Text.png';
+import { LOGOUT } from '../../constants/actionTypes';
 
 const Navbar = () => {
     const classes = useStyles();
     const history = useHistory();
     const location = useLocation();
-    const [user, setUser] = useState(JSON.parse(localStorage.getItem('profile')));
     const dispatch = useDispatch();
 
+    const [user, setUser] = useState(JSON.parse(localStorage.getItem('profile')));
+    
+
     const logout = () => {
-        dispatch({ type: 'LOGOUT' });
-        history.push('/');
+        dispatch({ type: LOGOUT });
+        history.push('/auth');
         setUser(null);
     };
 
@@ -28,11 +31,11 @@ const Navbar = () => {
         
         if(token) {
             const decodedToken = decode(token);
-            if(decodedToken.exp *100 < new Date().getTime()) {
+            if(decodedToken.exp * 1000 < new Date().getTime()) {
                 logout();
             }
         }
-        setUser(JSON.parse(localStorage.getItem('profile')))
+        setUser(JSON.parse(localStorage.getItem('profile')));
     }, [location]);
 
     return (
