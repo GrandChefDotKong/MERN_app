@@ -14,8 +14,8 @@ MERN Stack app
 <p align="left">
   The back-end is an API made with nodejs and express, and it is hosted on heroku, here :
 </p>
-  <div style="text-align:center;">https://sharing-memories.herokuapp.com/<div>
+  <p style="text-align:center;">https://sharing-memories.herokuapp.com/<p>
 <p>
   The front-end is made with react, redux and material-ui, and it is hosted on netlify at this address :
 </p>
-  <div style="text-align:center;">https://sharing-memories.netlify.app</div>
+  <p style="text-align:center;">https://sharing-memories.netlify.app</p>
