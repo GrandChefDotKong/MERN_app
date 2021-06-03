@@ -12,10 +12,11 @@ MERN Stack app
    </ul>
 </p>
 <p align="left">
-  The back-end is an API made with nodejs and express, and it is hosted on heroku.
+  The back-end is an API made with nodejs and express, and it is hosted on heroku, here : <br>
+  <span style="text-align: center">https://sharing-memories.herokuapp.com/</span>
   For the database I used MongoDB.
 </p>
 <p>
   The front-end is made with react, redux and material-ui, and it is hosted on netlify at this address :<br>
-  https://sharing-memories.netlify.app
+  <span style="text-align: center">https://sharing-memories.netlify.app</span>
 </p>
