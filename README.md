@@ -3,6 +3,7 @@ MERN Stack app
 <p align="left">
   This an MERN stack app that allows users to share memories.<br>
   Users can signin or signup.
+  they can also search for memories with keywords.
   Regitered users can :
    <ul>
      <li>create new memories</li>
