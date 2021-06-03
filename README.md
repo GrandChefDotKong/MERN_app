@@ -1,5 +1,5 @@
 # MERN_app
-MERN Stack app
+MERN Stack app (work in progress ...)
 <p align="left">
   This an MERN stack app that allows users to share memories.<br>
   Users can signin or signup.
