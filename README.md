@@ -6,5 +6,6 @@ MERN Stack app
   For the database I used MongoDB.
 </p>
 <p>
-  The front-end is made with react, redux and material-ui, and it is hosted on netlify at this address : https://sharing-memories.netlify.app
+  The front-end is made with react, redux and material-ui, and it is hosted on netlify at this address :<br>
+  https://sharing-memories.netlify.app
 </p>
