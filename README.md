@@ -9,6 +9,7 @@ MERN Stack app (work in progress ...)
      <li>create new memories</li>
      <li>update, delete their memories</li>
      <li>like other users memories</li>
+     <li>write comment</li>
    </ul>
 </p>
 <p align="left">
