@@ -1,8 +1,9 @@
 # MERN_app
-MERN Stack app (work in progress ...)
+MERN Stack app (still in development ...)
+
 <h2>Tokyo Bon Plans</h2>
 <p align="left">
-  This an MERN stack app that allows users to share good deals they found in Tokyo.<br>
+  This is an MERN stack app that allows users to share good deals they found in Tokyo.<br>
   It can be a shop, restaurant, bar, café, hostel or agency etc ... <br>
   
   Other users can like and comment each deals <br>
