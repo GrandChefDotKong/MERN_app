@@ -10,13 +10,13 @@ MERN Stack app (still in development ...)
 </p>  
 <h3>Tasks done</h3>
 <p align="left">
-  Users can signin or signup.
-  they can also search for memories with keywords.
-  Regitered users can :
    <ul>
-     <li>create new memories</li>
-     <li>update, delete their memories</li>
-     <li>like other users memories</li>
+     <li>add deals</li>
+     <li>update, delete deals</li>
+     <li>like deals</li>
+     <li>register</li>
+     <li>register with google</li>
+     <li>search deals via keywords or title</li>
      <li>write comment</li>
    </ul>
 </p>
